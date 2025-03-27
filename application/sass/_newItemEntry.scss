@@ -1,0 +1,26 @@
+.newItemEntry {
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+
+    form {
+        
+        label {
+            postion: absolute;
+        }
+
+        input[type="text"]{
+            
+            color: black;
+            width: 30vw;
+            outline: none;
+        }
+
+        input[type="text"]:focus,
+        input[type="text"]:hover {
+            box-shadow: 4px 2px 5px #1e1e1e;
+        }
+
+    }
+}

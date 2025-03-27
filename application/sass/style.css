@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  font-family: monospace;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body {
+  font-size: 18px;
+  font-family: monospace;
+  color: #000000;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  html, body {
+    font-size: 22px;
+  }
+}
+
+body {
+  padding: 40px;
+  background-color: #1e1e1e;
+}
+
+section {
+  background-color: #444444;
+  min-width: 50vw;
+  min-height: 30vh;
+  margin: auto;
+  border: 3px solid #000000;
+  border-radius: 10px;
+}
+
+.button {
+  color: black;
+  width: 100px;
+  height: 48px;
+  min-width: 60px;
+  min-height: 48px;
+  border-radius: 40px;
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  filter: brightness(200%);
+  box-shadow: 4px 2px 5px #000000;
+}
+
+.newItemEntry {
+  position: sticky;
+  top: 0;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+}
+.newItemEntry form label {
+  postion: absolute;
+}
+.newItemEntry form input[type=text] {
+  color: black;
+  width: 30vw;
+  outline: none;
+}
+.newItemEntry form input[type=text]:focus,
+.newItemEntry form input[type=text]:hover {
+  box-shadow: 4px 2px 5px #1e1e1e;
+}
+
+.listContainer {
+  min-height: 60vh;
+}
+.listContainer .listTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}/*# sourceMappingURL=style.css.map */

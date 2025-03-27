@@ -1,0 +1,51 @@
+$font-color: #000000;
+$background-color: #1e1e1e;
+$container-bgcolor: #444444;
+$container-border-color: #000000;
+
+$textbox-border-color: #444444;
+$button-text-color: #ffffff;
+$button-hover-color: #000000;
+$add-button-color: #1e1e1e;
+$clear-button-color: #444444;
+
+@mixin mq($size) {
+    @media only screen and (max-width: $size) {
+        @content;
+    }
+}
+
+* {  
+    margin: 0;
+    font-family: monospace;
+    padding: 10px; 
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    font-size: 18px;
+    font-family: monospace;
+    color: $font-color;
+    width: 100%;
+
+    @include mq(768px) { 
+        font-size: 22px;
+    }
+}
+
+body {
+    padding: 40px;
+    background-color: $background-color;
+}
+
+section {
+
+    background-color: $container-bgcolor;
+    min-width: 50vw;
+    min-height: 30vh; 
+    margin: auto;
+    border: 3px solid $container-border-color;
+    border-radius: 10px;
+
+}

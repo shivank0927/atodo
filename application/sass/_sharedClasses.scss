@@ -1,0 +1,16 @@
+.button {
+
+    color: black;
+    width: 100px;
+    height: 48px;
+    min-width: 60px;
+    min-height: 48px;
+    border-radius: 40px;
+    outline: none;
+}
+
+.button:hover,
+.button:focus {
+    filter: brightness(200%);
+    box-shadow: 4px 2px 5px #000000;
+}

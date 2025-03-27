@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css"
+</head>
+
+<style>
+    .listTitle {
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <main>
+        <section class="newItemEntry">
+            <form id="itemEntryForm">
+
+                <label for="newItem">task</label>
+                <input id="newItem" type="text" size="40" autocomplete="on" placeholder="Add Task" tabindex="0"/>
+                <button id=addItem class="button" title="Add new Item" aria-label="Add new item to list" tabindex="0">add
+                </button>
+            </form>
+        </section>
+
+        <section class="listContainer">
+
+            <div class="listTitle">
+
+                <h1>task list</h1><button id="clearItems" class="button" title="clear the list" aria-label="clear list items"> clear</button>
+                
+            </div>
+
+            <div id="listItems">
+                
+                <div class="item">
+                
+                    <input type="checkbox" id="1" tabindex="0">
+                    <label for="1">text task</label>
+                
+                </div>
+                
+                <div class="item">
+                
+                    <input type="checkbox" id="2" tabindex="0">
+                    <label for="2">text task 2</label> 
+                
+                </div>
+            </div> 
+        </section>
+    </main>
+</body>
+</html>
+<!--  -->
