@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  padding: 40px;
+  padding: 60px;
   background-color: #1e1e1e;
 }
 
@@ -52,8 +52,8 @@ section {
 .newItemEntry {
   position: sticky;
   top: 0;
-  margin-bottom: 1rem;
-  padding: 0.75rem;
+  margin-bottom: 0.9rem;
+  padding: 0.5rem;
 }
 .newItemEntry form {
   display: flex;
@@ -89,18 +89,21 @@ section {
   padding: 0 0.1rem;
   margin-bottom: 0.5rem;
 }
-.listContainer .items {
+.listContainer .item {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-top: 1rem;
 }
-.listContainer .items input[type=checkbox] {
+.listContainer .item input[type=checkbox] {
   text-align: center;
-  width: 2.5rem;
-  min-width: 48px;
-  min-height: 48px;
-  height: 2.5rem;
+  width: 1rem;
+  min-width: 40px;
+  min-height: 40px;
+  height: 1rem;
   cursor: pointer;
   margin-right: 1.5rem;
+}
+.listContainer .item label {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

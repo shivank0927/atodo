@@ -17,7 +17,7 @@
 
     }
 
-    .items {
+    .item {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -25,16 +25,19 @@
 
         input[type="checkbox"] { // input sys styling
             text-align: center;
-            width: 2.5rem;
-            min-width: 48px;
-            min-height: 48px;
-            height: 2.5rem;
+            width: 1.0rem;
+            min-width: 40px;
+            min-height: 40px;
+            height: 1.0rem;
             cursor: pointer;
             margin-right: 1.5rem;
         }
 
         input[type="checkbox"]:focus + label {
             
+        }
+        label {
+            font-size: 0.8rem;
         }
     }
 }
